@@ -37,6 +37,7 @@ public class Main3Activity extends AppCompatActivity {
                 Log.i("onClick", "Main4Activity");
                 Intent intentSubActivity = new Intent(Main3Activity.this, Main4Activity.class);
                 startActivity(intentSubActivity);
+                finish();
             }
         });
 

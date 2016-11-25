@@ -23,7 +23,6 @@ public class Main2Activity extends AppCompatActivity {
     ImageView dog2;
     ImageView rabbit3;
     ImageView img;
-
     LinearLayout hiddenLayout;
 
     @Override
