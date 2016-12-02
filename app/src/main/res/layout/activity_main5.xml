@@ -28,11 +28,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
-            android:text="Name"
             android:ems="10"
             android:id="@+id/editText"
             android:singleLine="true"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:text="0" />
     </LinearLayout>
 
     <LinearLayout
@@ -52,9 +52,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
-            android:text="Name"
             android:ems="10"
-            android:id="@+id/editText4" />
+            android:id="@+id/editText4"
+            android:text="0" />
 
     </LinearLayout>
 
@@ -73,9 +73,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
-            android:text="Name"
             android:ems="10"
-            android:id="@+id/editText5" />
+            android:id="@+id/editText5"
+            android:text="0" />
     </LinearLayout>
 
     <CheckBox
@@ -111,11 +111,11 @@
         android:layout_height="146dp">
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
             app:srcCompat="@mipmap/ic_launcher"
             android:id="@+id/imageView4"
-            android:layout_weight="0.69" />
+            android:layout_weight="0.01" />
 
         <Button
             android:text="주문완료"

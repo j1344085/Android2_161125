@@ -34,6 +34,7 @@ public class Main4Activity extends AppCompatActivity {
         Rbtn3 = (RadioButton)findViewById(R.id.radioButton3);
         btn1 = (Button)findViewById(R.id.button10);
         btn2 = (Button)findViewById(R.id.button11);
+
         hiddenLayout = (LinearLayout)findViewById(R.id.SwitchLayout);
         img =(ImageView)findViewById(R.id.imageView2);
 
